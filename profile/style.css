@@ -120,3 +120,43 @@ ul {
 .col-sm-2 {
 	width: 16%;
 }
+
+@media screen and (max-width: 800px) {
+
+	body {
+		background-color: #EAFCB2;
+	}
+	table tbody {
+		background-color: white;
+	}
+	table thead tr th {
+		border: 0;
+	}
+	main {
+		padding: 1% 2.5%;
+		display: block;
+	}
+	.col-sm-12 {
+		width: 100%;
+	}
+
+	.col-sm-10 {
+		width: 100%;
+	}
+
+	.col-sm-9 {
+		width: 100%;
+	}
+
+	.col-sm-6 {
+		width: 100%;
+	}
+
+	.col-sm-3 {
+		width: 100%;
+	}
+
+	.col-sm-2 {
+		width: 100%;
+	}
+}
